@@ -47,11 +47,16 @@ h2 {
     margin-bottom: 20px;
     font-size: 1.7rem;
 }
+
 p {
     margin-bottom: 20px;
     line-height: 20px;
     font-size: 0.8rem;
     max-height: 80px;
+}
+
+a {
+    text-decoration: none;
 }
 .p-h {
     margin-bottom: 0;
@@ -86,13 +91,11 @@ p {
 .b-w {
     color: inherit;
     color: black;
-    text-decoration: none;
     font-size: 1rem;
 }
 
 .t-w {
-    color: white;
-    text-decoration: none;
+    color: white; 
     font-size: 1rem;
 }
 /* utilities */
@@ -167,7 +170,6 @@ p {
     /* background-color: #1E90FF; */
      /* border: 1px dashed black;
     /* /debug */
-    */
 }
 
 .small-container {
@@ -215,6 +217,27 @@ p {
     text-align: center;
 }
 
+.s-b {
+    background-color: #7289DA;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: white;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    margin: 30px 0 0;
+    display: inline-block;
+}
+
+.star {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    text-align: center;
+    /* width: 800px; */
+
+    /* display: flex;
+    justify-content: center; */
+}
 /* footer */
 footer {
     background-color: #23272A; 
