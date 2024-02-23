@@ -33,6 +33,13 @@ nav {
     align-items: center;
 }
 
+.link ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .section {
     padding: 50px 0;
 }
