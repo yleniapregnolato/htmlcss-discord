@@ -1,0 +1,177 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+/* common */
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+/* /common */
+
+.banner {
+    width: 700px;
+    background-color: #DAA520;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+header {
+    background-color: #ADD8E6;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.logo,
+.login {
+    display: flex;
+    width: 20%;
+    border: 1px dashed black;
+}
+
+.login {
+    display: flex;
+    justify-content: right;
+}
+/* /header */
+
+/* main */
+/* first section */
+.first-section {
+    /* debug */
+    background-color: #00008B;
+    height: 400px;
+    /* /debug */
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-purple {
+    width: 600px;
+    /* debug */
+    height: 300px;
+    background-color: #EE82EE;
+    /* /debug */
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px dashed black;
+}
+/* /first section */
+/* second section */
+
+.second-section {
+    border: 1px dashed black;
+    width: 700px;
+    height: 400px;
+    display: flex;
+}
+/* common */
+
+.large-container {
+    width: 60%;
+    height: 100%;
+    background-color: #1E90FF;
+    border: 1px dashed black;
+}
+
+.small-container {
+    width: 40%;
+    height: 100%;
+    background-color: #FFC0CB;
+    border: 1px dashed black;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+/* /common */
+
+.grey-section {
+    border: 1px dashed black;
+    width: 700px;
+    height: 400px;
+    display: flex;
+}
+
+.bg-grey {
+    background-color: #D3D3D3;
+}
+
+.green-container {
+    width: 700px;
+    height: 600px;
+    background-color: #228B22;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/* footer */
+footer {
+    background-color: #23272A; 
+}
+
+.top {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.pink {
+    width: 35%;
+    height: 100%;
+    background-color: #F08080;
+    border: 1px dashed black;
+}
+
+.aqua {
+    width: 17.5%;
+    height: 100%;
+    background-color: #20B2AA;
+    border: 1px dashed white;
+}
+
+.section-top {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.bottom {
+    width: 700px;
+    height: 50px;
+    background-color: #7FFFD4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-bottom {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-footer, .bottone {
+    background-color: #FFB6C1;
+    width: 80px;
+    height: 30px;
+    border: 1px dashed black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/* /footer */
