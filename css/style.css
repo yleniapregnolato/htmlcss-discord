@@ -128,13 +128,15 @@ a {
 .h-s {
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
 }
 .first-section {
     /* debug */
-    height: 400px;
+    /* height: 400px; */
     /* /debug */
     display: flex;
     justify-content: space-around;
+    padding: 80px;
 }
 
 .box-purple {
@@ -174,9 +176,7 @@ a {
 
 .small-container {
     width: 40%;
-    /* line-height: 30px; */
     text-align: left;
-    /* font-size: 0.75rem; */
     padding: 20px;
     /* debug */
     /* height: 100%; */
@@ -230,12 +230,12 @@ a {
 
 .star {
     background-image: url(../img/stars.svg);
-    background-size: cover;
+    background-size: 100%;
     text-align: center;
-    /* width: 800px; */
+    padding: 20px 50px 0;
+    margin: 30px 450px;
+    background-repeat: no-repeat;
 
-    /* display: flex;
-    justify-content: center; */
 }
 /* footer */
 footer {
@@ -248,9 +248,18 @@ ul {
 li {
     color: white;
 }
+
+.space-blue {
+    width: 70%;
+    height: 1px;
+    background-color: #7289DA;
+    margin: 0 auto;
+}
 .top {
     width: 700px;
+    /* debug */
     /* height: 400px; */
+    /* /debug */
     display: flex;
     justify-content: space-around;
     margin: auto;
@@ -355,4 +364,6 @@ li {
     color: white; 
     font-size: 1rem;
 }
+
+
 /* /footer */
